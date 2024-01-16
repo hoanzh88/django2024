@@ -20,3 +20,9 @@
 ##  create the app
 	```python manage.py startapp student_management_app```
 	
+## migrate your models into the database
+	```
+	python manage.py makemigrations
+	python manage.py migrate	
+	```
+	
