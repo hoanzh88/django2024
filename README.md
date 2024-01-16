@@ -17,3 +17,6 @@
 	python manage.py runserver <Tên Cổng>
 	```
 	
+##  create the app
+	```python manage.py startapp student_management_app```
+	
