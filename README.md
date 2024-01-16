@@ -26,3 +26,8 @@
 	python manage.py migrate	
 	```
 	
+## Hệ thống Admin trong Python Django
+	```python manage.py createsuperuser```
+	http://localhost:8000/admin/
+
+
