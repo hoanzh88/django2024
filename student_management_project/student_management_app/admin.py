@@ -4,7 +4,7 @@ from .models import CustomUser, AdminHOD, Staffs, Courses, Subjects, Students, A
 
 # Register your models here.
 class UserModel(UserAdmin):
-	pass
+    pass
 
 
 admin.site.register(CustomUser, UserModel)
@@ -22,3 +22,4 @@ admin.site.register(FeedBackStudent)
 admin.site.register(FeedBackStaffs)
 admin.site.register(NotificationStudent)
 admin.site.register(NotificationStaffs)
+
